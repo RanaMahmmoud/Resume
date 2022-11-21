@@ -100,18 +100,13 @@ var PageTransitions = (function ($, options) {
 
         var navLink = $(item);
         navLink = navLink['0'];
-        try{
+        
         navLink = $(navLink.parentNode);
-               }catch(e){
-            //            navLink = $(navLink);
-            //            $('ul.site-main-menu li').removeClass('active');
-            //            navLink.addClass('active');
-                    }
+            
         if(navLink) {
             $('ul.site-main-menu li').removeClass('active');
             navLink.addClass('active');
         }
-     
     }
 
     function ajaxLoader() {

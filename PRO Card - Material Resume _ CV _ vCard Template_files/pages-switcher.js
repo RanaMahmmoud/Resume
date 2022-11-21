@@ -100,9 +100,15 @@ var PageTransitions = (function ($, options) {
 
         var navLink = $(item);
         navLink = navLink['0'];
+        try{
         navLink = $(navLink.parentNode);
             
         if(navLink) {
+            $('ul.site-main-menu li').removeClass('active');
+            navLink.addClass('active');
+        }
+        }catch(e){
+            navLink = $(navLink);
             $('ul.site-main-menu li').removeClass('active');
             navLink.addClass('active');
         }

@@ -2,7 +2,7 @@ Welcome to the repository for my CV Portfolio website! This project showcases my
 
 ## 🖥️ Live Demo
 
-You can view the live version of the portfolio [here](https://rana-mahmmoud.github.io/Resume).
+You can view the live version of the portfolio [here](https://ranamahmmoud.github.io/Resume/).
 
 ## 📂 Project Structure
 
@@ -49,5 +49,5 @@ This project is licensed under the MIT License. Feel free to use or modify it fo
 
 ## 👋 Contact
 
-🌐 Portfolio: [Your Portfolio](https://rana-mahmmoud.github.io/Resume)
+🌐 Portfolio: [Your Portfolio](https://ranamahmmoud.github.io/Resume/)
 
